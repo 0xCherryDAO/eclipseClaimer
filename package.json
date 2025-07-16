@@ -1,0 +1,29 @@
+{
+  "name": "eclipseClaimer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "private": true,
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "1.98.0",
+    "axios": "^1.10.0",
+    "bs58": "^6.0.0",
+    "class-validator": "^0.14.2",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^12.7.0",
+    "sqlite3": "^5.1.7",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.25",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.5.3"
+  }
+}
