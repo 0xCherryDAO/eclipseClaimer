@@ -7,7 +7,6 @@ import {createAta} from "../../utils/common/instructions";
 import {
     ASSOCIATED_TOKEN_PROGRAM_ID,
     TOKEN_2022_PROGRAM_ID,
-    createTransferCheckedInstruction
 } from "@solana/spl-token";
 import {deriveAta} from "../../utils/common/ata";
 
@@ -21,7 +20,7 @@ export class Claimer extends Account {
     }
 
     toString(): string {
-        return `[${this.signer.publicKey}] | Creating NFT collection on Underdog...`
+        return `[${this.signer.publicKey}] | Claiming ES...`
     }
 
     async getTokenInfo(
